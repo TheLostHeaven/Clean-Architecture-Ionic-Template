@@ -32,7 +32,7 @@
               }
             ],
             "styles": [
-                "src/styles.scss",
+                "src/global.scss",
                 "node_modules/primeicons/primeicons.css",
                 "node_modules/primeflex/primeflex.css"
             ],
