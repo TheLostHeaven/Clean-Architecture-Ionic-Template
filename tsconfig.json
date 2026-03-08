@@ -16,12 +16,16 @@
     "experimentalDecorators": true,
     "moduleResolution": "bundler",
     "importHelpers": true,
-    "target": "es2022",
-    "module": "es2020",
-    "lib": [
-      "es2018",
-      "dom"
-    ],
+    "target": "ES2022",
+    "module": "ES2022",
+    "lib": ["ES2022","dom"],
+    // "types": ["jest"],
+    "paths": {
+      "@environments/*": ["src/environments/*"],
+      "@shared/*": ["src/app/shared/*"],
+      "@auth/*": ["src/app/features/auth/*"]
+      //"@example/*": ["src/app/features/name-feature/*"]
+    },
     "skipLibCheck": true,
     "useDefineForClassFields": false
   },
